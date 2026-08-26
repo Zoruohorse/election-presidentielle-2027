@@ -1,0 +1,8712 @@
+window.ATLAS_DATA = {
+  "meta": {
+    "title": "Énergie 2027, atlas documentaire",
+    "schemaVersion": "3.0.0",
+    "updatedAt": "2026-08-12",
+    "targetInstitutionLabel": "RTE",
+    "methodology": "Les synthèses reprennent le corpus fourni. Aucun score ni indice de convergence n’est calculé."
+  },
+  "organizations": [
+    {
+      "id": "org_rn",
+      "type": "political_camp",
+      "name": "Rassemblement National",
+      "shortName": "RN",
+      "color": "#263c73",
+      "candidateLabel": "Marine Le Pen",
+      "status": "Candidate déclarée · noyau énergie visible",
+      "summary": "Dispositif très individualisé : Jean-Philippe Tanguy et Maxime Amblard structurent la ligne énergie, sous arbitrage politique de Marine Le Pen.",
+      "factory": "Marine Le Pen → Jean-Philippe Tanguy → Maxime Amblard → entourage et relais parlementaires.",
+      "markers": [
+        "Nucléaire : relance massive",
+        "Hydro : très favorable",
+        "Éolien : très hostile",
+        "Photovoltaïque : critique, nuance interne signalée",
+        "Marché UE : volonté de rupture profonde",
+        "Prix : baisse des taxes et souveraineté tarifaire"
+      ],
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Dispositif très individualisé : Jean-Philippe Tanguy et Maxime Amblard structurent la ligne énergie, sous arbitrage politique de Marine Le Pen.",
+      "active": true
+    },
+    {
+      "id": "org_ren",
+      "type": "political_camp",
+      "name": "Renaissance / Gabriel Attal",
+      "shortName": "REN",
+      "color": "#e6a43a",
+      "candidateLabel": "Gabriel Attal",
+      "status": "Candidat déclaré · continuité macroniste",
+      "summary": "Vivier gouvernemental dense. Agnès Pannier-Runacher est la figure la plus directement documentée comme porteuse publique de la stratégie énergie d’Attal.",
+      "factory": "Gabriel Attal → Agnès Pannier-Runacher → anciens ministres et parlementaires → expertise d’État et filières.",
+      "markers": [
+        "Nucléaire et EnR : complémentarité",
+        "Pilotabilité et stockage : priorité",
+        "Europe : intégration assumée",
+        "Industrie : électrification",
+        "Prix : compétitivité plutôt que rupture"
+      ],
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Vivier gouvernemental dense. Agnès Pannier-Runacher est la figure la plus directement documentée comme porteuse publique de la stratégie énergie d’Attal.",
+      "active": true
+    },
+    {
+      "id": "org_hor",
+      "type": "political_camp",
+      "name": "Horizons / Édouard Philippe",
+      "shortName": "HOR",
+      "color": "#47737f",
+      "candidateLabel": "Édouard Philippe",
+      "status": "Candidat déclaré · doctrine lisible",
+      "summary": "Christophe Béchu est le point d’entrée le plus solide : nucléaire, EnR et Europe, avec stockage, flexibilité et planification 2050 intégrée.",
+      "factory": "Édouard Philippe → Christophe Béchu → cadres et experts Horizons → chiffrage économique et territorial.",
+      "markers": [
+        "Nucléaire : prolonger et construire",
+        "EnR : compléments indispensables",
+        "Stockage et flexibilité : priorité",
+        "Europe : pilier",
+        "Planification 2050 intégrée"
+      ],
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Christophe Béchu est le point d’entrée le plus solide : nucléaire, EnR et Europe, avec stockage, flexibilité et planification 2050 intégrée.",
+      "active": true
+    },
+    {
+      "id": "org_lr",
+      "type": "political_camp",
+      "name": "Les Républicains / Bruno Retailleau",
+      "shortName": "LR",
+      "color": "#3564a4",
+      "candidateLabel": "Bruno Retailleau",
+      "status": "Candidat LR désigné",
+      "summary": "Chaîne lisible : Retailleau arbitre, Julien Aubert apporte l’architecture doctrinale, les parlementaires énergie assurent la traduction technique.",
+      "factory": "Bruno Retailleau → Julien Aubert / Institut Valmy → Gremillet / Vermorel-Marques → traduction législative.",
+      "markers": [
+        "Nucléaire : priorité quasi absolue",
+        "Hydro : favorable",
+        "Éolien et solaire : arrêt des subventions",
+        "Souveraineté industrielle : très forte",
+        "Marché UE : critique"
+      ],
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Chaîne lisible : Retailleau arbitre, Julien Aubert apporte l’architecture doctrinale, les parlementaires énergie assurent la traduction technique.",
+      "active": true
+    },
+    {
+      "id": "org_lfi",
+      "type": "political_camp",
+      "name": "La France insoumise",
+      "shortName": "LFI",
+      "color": "#7d3f93",
+      "candidateLabel": "Jean-Luc Mélenchon",
+      "status": "Candidat déclaré · appareil programmatique dense",
+      "summary": "Dispositif structuré : coordination programmatique, Institut La Boétie, planification écologique et groupe d’ingénieurs et experts.",
+      "factory": "Mélenchon / Bompard → Guetté / Clouet → Institut La Boétie / Lejeune → Grenier et experts.",
+      "markers": [
+        "Nucléaire : sortie à terme dans le corpus historique",
+        "EnR : 100 % à terme",
+        "Sobriété : structurante",
+        "Public : planification et maîtrise",
+        "Marché : rupture avec la logique libérale"
+      ],
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Dispositif structuré : coordination programmatique, Institut La Boétie, planification écologique et groupe d’ingénieurs et experts.",
+      "active": true
+    },
+    {
+      "id": "org_eco",
+      "type": "political_camp",
+      "name": "Les Écologistes",
+      "shortName": "ÉCO",
+      "color": "#4d8c52",
+      "candidateLabel": "Marine Tondelier",
+      "status": "Séquence présidentielle / primaire en cours",
+      "summary": "Fabrique collective : Commission Énergie & Climat et Julie Laernoes pour la traduction parlementaire ; Marine Tondelier arbitre politiquement.",
+      "factory": "Tondelier → Commission Énergie & Climat → Julie Laernoes et élus → experts et ONG de transition.",
+      "markers": [
+        "Nucléaire : sortie progressive",
+        "EnR : accélération massive",
+        "Sobriété et efficacité : centrales",
+        "Europe : gouvernance solidaire",
+        "Réseau : très structurant"
+      ],
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Fabrique collective : Commission Énergie & Climat et Julie Laernoes pour la traduction parlementaire ; Marine Tondelier arbitre politiquement.",
+      "active": true
+    },
+    {
+      "id": "org_ps",
+      "type": "political_camp",
+      "name": "Parti socialiste",
+      "shortName": "PS",
+      "color": "#d65a78",
+      "candidateLabel": "Primaire / incarnation non stabilisée",
+      "status": "Projet collectif + compétition interne",
+      "summary": "Chaîne générale identifiée autour de Chloé Ridel, mais la doctrine énergie peut évoluer selon la primaire et le poids de Philippe Brun.",
+      "factory": "Direction / primaire → Chloé Ridel et comité projet → auditions → arbitrage candidat → parlementaires spécialisés.",
+      "markers": [
+        "Faure : nucléaire conservé mais moins d’EPR2",
+        "EnR : effort maximal",
+        "Brun : EDF public et sortie du marché UE",
+        "Projet : auditions et refondation"
+      ],
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Chaîne générale identifiée autour de Chloé Ridel, mais la doctrine énergie peut évoluer selon la primaire et le poids de Philippe Brun.",
+      "active": true
+    },
+    {
+      "id": "org_pcf",
+      "type": "political_camp",
+      "name": "Parti communiste français",
+      "shortName": "PCF",
+      "color": "#ba3838",
+      "candidateLabel": "Fabien Roussel (processus interne)",
+      "status": "Doctrine énergie très structurée",
+      "summary": "Nucléaire, renouvelables et planification publique, avec une forte interface filière industrielle, syndicats et monde scientifique.",
+      "factory": "Roussel → structures énergie PCF et experts → scientifiques, syndicats, EDF / CEA → programme climat-industrie.",
+      "markers": [
+        "Nucléaire : développement massif",
+        "EnR : nécessaires avec nucléaire",
+        "Public : maîtrise et pôle public",
+        "Marché UE : sortie du marché spéculatif",
+        "Industrie : électrification"
+      ],
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Nucléaire, renouvelables et planification publique, avec une forte interface filière industrielle, syndicats et monde scientifique.",
+      "active": true
+    },
+    {
+      "id": "org_ne",
+      "type": "political_camp",
+      "name": "Nouvelle Énergie / David Lisnard",
+      "shortName": "NE",
+      "color": "#324d5d",
+      "candidateLabel": "David Lisnard",
+      "status": "Projet structuré · responsable énergie à identifier",
+      "summary": "Processus général public autour de Hervé Novelli et Michel Cavargini, mais responsable technique énergie encore peu visible.",
+      "factory": "Lisnard → Hervé Novelli → Michel Cavargini → groupes de travail → experts à identifier.",
+      "markers": [
+        "Nucléaire : central",
+        "Innovation : technologies avancées",
+        "Marché : approche libérale",
+        "État : moins interventionniste",
+        "Groupes de travail ouverts"
+      ],
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Processus général public autour de Hervé Novelli et Michel Cavargini, mais responsable technique énergie encore peu visible.",
+      "active": true
+    },
+    {
+      "id": "org_pp",
+      "type": "political_camp",
+      "name": "Place publique / Glucksmann",
+      "shortName": "PP",
+      "color": "#d66147",
+      "candidateLabel": "Raphaël Glucksmann (à surveiller)",
+      "status": "Écosystème prospectif",
+      "summary": "Thomas Pellerin-Carlin constitue le principal point d’entrée énergie, même si son rôle dans une campagne présidentielle n’est pas établi.",
+      "factory": "Glucksmann / direction PP → eurodéputés spécialisés → Thomas Pellerin-Carlin → expertise UE énergie-climat.",
+      "markers": [
+        "Europe : souveraineté énergétique",
+        "Gaz russe : sortie et diversification",
+        "EnR : forte accélération probable",
+        "Nucléaire : position 2027 à préciser",
+        "Industrie : sécurité économique européenne"
+      ],
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Thomas Pellerin-Carlin constitue le principal point d’entrée énergie, même si son rôle dans une campagne présidentielle n’est pas établi.",
+      "active": true
+    },
+    {
+      "id": "org_ville",
+      "type": "political_camp",
+      "name": "La France humaniste / Villepin",
+      "shortName": "LFH",
+      "color": "#8a7658",
+      "candidateLabel": "Dominique de Villepin",
+      "status": "Dispositif 2027 en construction",
+      "summary": "Doctrine en construction, avec un dispositif énergie documenté autour de Pierre Jérémie et Daniel Arlaud.",
+      "factory": "Villepin → Daniel Arlaud → Pierre Jérémie → rencontres filière.",
+      "markers": [
+        "Doctrine détaillée : en construction",
+        "Méthode : rencontres filière et experts",
+        "Europe : probablement structurante",
+        "Mix : encore non arbitré"
+      ],
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Doctrine en construction, avec un dispositif énergie documenté autour de Pierre Jérémie et Daniel Arlaud.",
+      "active": true
+    },
+    {
+      "id": "org_souv",
+      "type": "political_camp",
+      "name": "Souverainistes hors RN",
+      "shortName": "SOUV",
+      "color": "#68533e",
+      "candidateLabel": "Dupont-Aignan · Philippot · Asselineau",
+      "status": "Plusieurs candidatures · équipes peu visibles",
+      "summary": "Doctrines très présidentialisées ; les techniciens distincts du candidat sont peu documentés.",
+      "factory": "Candidat → bureau programmatique interne → experts ponctuels et relais médiatiques.",
+      "markers": [
+        "Rupture UE : centrale",
+        "Nucléaire et hydro : priorités",
+        "Éolien : très hostile",
+        "Prix : forte intervention selon les candidats"
+      ],
+      "sourceIds": [],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "Doctrines très présidentialisées ; les techniciens distincts du candidat sont peu documentés.",
+      "active": true
+    },
+    {
+      "id": "org_lo",
+      "type": "political_camp",
+      "name": "Lutte ouvrière",
+      "shortName": "LO",
+      "color": "#b23b3b",
+      "candidateLabel": "Nathalie Arthaud",
+      "status": "Candidate déclarée · logique différente",
+      "summary": "LO ne construit pas un programme énergétique technocratique comparable aux autres camps ; l’énergie est subordonnée à la propriété et au contrôle des travailleurs.",
+      "factory": "Direction collective / candidate → doctrine générale de classe → déclinaison sectorielle.",
+      "markers": [
+        "Propriété et contrôle : axe dominant",
+        "Mix électrique : peu détaillé",
+        "Prix : critique des profits",
+        "Technicien énergie : non identifié"
+      ],
+      "sourceIds": [],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "description": "LO ne construit pas un programme énergétique technocratique comparable aux autres camps ; l’énergie est subordonnée à la propriété et au contrôle des travailleurs.",
+      "active": true
+    }
+  ],
+  "entities": [
+    {
+      "id": "actor_marine-le-pen",
+      "type": "person",
+      "name": "Marine Le Pen",
+      "description": "Arbitre politique final ; nucléaire central, souveraineté nationale et rupture avec le fonctionnement actuel du marché UE.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_jean-philippe-tanguy",
+      "type": "person",
+      "name": "Jean-Philippe Tanguy",
+      "description": "Nucléaire massif, hydro, souveraineté tarifaire, critique de la libéralisation européenne.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_maxime-amblard",
+      "type": "person",
+      "name": "Maxime Amblard",
+      "description": "Ingénieur en physique nucléaire ; très actif sur PPE et EnR.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_ambroise-de-rancourt",
+      "type": "person",
+      "name": "Ambroise de Rancourt",
+      "description": "Influence liée à l’accès à l’arbitrage ; nuance interne signalée sur le photovoltaïque.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_nicolas-meizonnet",
+      "type": "person",
+      "name": "Nicolas Meizonnet",
+      "description": "Élu impliqué dans l’écosystème énergie ; rôle programmatique moins formalisé.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_les-horaces",
+      "type": "organization",
+      "name": "Les Horaces",
+      "description": "Réseau historiquement associé au RN ; rôle énergie 2027 insuffisamment documenté.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_gabriel-attal",
+      "type": "person",
+      "name": "Gabriel Attal",
+      "description": "Doit arbitrer entre continuité technique et différenciation politique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_agns-pannier-runacher",
+      "type": "person",
+      "name": "Agnès Pannier-Runacher",
+      "description": "Nucléaire et EnR, pilotabilité, batteries, hydrogène, géothermie et compétitivité.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_antoine-armand",
+      "type": "person",
+      "name": "Antoine Armand",
+      "description": "Capital technique et politique sur la souveraineté énergétique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_maud-bregeon",
+      "type": "person",
+      "name": "Maud Bregeon",
+      "description": "Ancienne ingénieure EDF ; expertise filière et relance nucléaire.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_roland-lescure",
+      "type": "person",
+      "name": "Roland Lescure",
+      "description": "Décarbonation industrielle, électrification et compétitivité.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_douard-philippe",
+      "type": "person",
+      "name": "Édouard Philippe",
+      "description": "Fixe la cohérence générale et budgétaire.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_christophe-bchu",
+      "type": "person",
+      "name": "Christophe Béchu",
+      "description": "Nucléaire, EnR, stockage, flexibilité, Europe et planification 2050.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_bruno-retailleau",
+      "type": "person",
+      "name": "Bruno Retailleau",
+      "description": "Porte la relance nucléaire et la critique des soutiens à l’éolien et au solaire.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_julien-aubert",
+      "type": "person",
+      "name": "Julien Aubert",
+      "description": "Vice-président LR, président de l’Institut Valmy et co-signataire de la doctrine énergie.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_daniel-gremillet",
+      "type": "person",
+      "name": "Daniel Gremillet",
+      "description": "Investi dans la programmation énergétique et sa traduction législative.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_franois-xavier-bellamy",
+      "type": "person",
+      "name": "François-Xavier Bellamy",
+      "description": "Co-signataire de la ligne énergie.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_antoine-vermorel-marques",
+      "type": "person",
+      "name": "Antoine Vermorel-Marques",
+      "description": "Actif sur énergie, prix et écologie de marché.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_jean-luc-mlenchon",
+      "type": "person",
+      "name": "Jean-Luc Mélenchon",
+      "description": "Planification, sobriété, renouvelables à terme et sortie du nucléaire dans le corpus historique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_clmence-guett",
+      "type": "person",
+      "name": "Clémence Guetté",
+      "description": "Figure centrale de la cohérence générale du programme.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_hadrien-clouet",
+      "type": "person",
+      "name": "Hadrien Clouet",
+      "description": "Co-coordinateur de l’espace programmatique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_manuel-bompard",
+      "type": "person",
+      "name": "Manuel Bompard",
+      "description": "Pont entre travaux sectoriels et stratégie nationale.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_claire-lejeune",
+      "type": "person",
+      "name": "Claire Lejeune",
+      "description": "Interface doctrine écologique et appareil intellectuel.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_jean-baptiste-grenier",
+      "type": "person",
+      "name": "Jean-Baptiste Grenier",
+      "description": "Coordinateur d’une note sur la gouvernance du système énergétique par les besoins.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_alma-dufour",
+      "type": "person",
+      "name": "Alma Dufour",
+      "description": "Énergie-industrie, sobriété juste et maîtrise publique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_marignac-debrgeas-nicoloso-brom",
+      "type": "organization",
+      "name": "Marignac · Debrégeas · Nicoloso · Brom",
+      "description": "Experts récurrents autour des travaux de l’Institut La Boétie.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_marine-tondelier",
+      "type": "person",
+      "name": "Marine Tondelier",
+      "description": "Accélération EnR, sobriété, efficacité et sortie progressive du nucléaire.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_commission-nergie-climat",
+      "type": "organization",
+      "name": "Commission Énergie & Climat",
+      "description": "Contribue à la doctrine et apporte une expertise aux élus.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_julie-laernoes",
+      "type": "person",
+      "name": "Julie Laernoes",
+      "description": "Travaille sur la programmation énergétique et la PPE.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_yannick-jadot",
+      "type": "person",
+      "name": "Yannick Jadot",
+      "description": "Ancien candidat et figure énergie-climat ; rôle 2027 à documenter.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_nicolas-thierry",
+      "type": "person",
+      "name": "Nicolas Thierry",
+      "description": "Actif sur les sujets de transition.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_olivier-faure",
+      "type": "person",
+      "name": "Olivier Faure",
+      "description": "Nucléaire autant que nécessaire, EnR autant que possible.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_chlo-ridel",
+      "type": "person",
+      "name": "Chloé Ridel",
+      "description": "Coordonne la refondation programmatique et les auditions.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_philippe-brun",
+      "type": "person",
+      "name": "Philippe Brun",
+      "description": "EDF public, sortie du marché européen de l’électricité et prix bas.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_responsable-nergie-ps-2027",
+      "type": "person",
+      "name": "Responsable énergie PS 2027",
+      "description": "Aucun responsable sectoriel unique suffisamment établi.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_fabien-roussel",
+      "type": "person",
+      "name": "Fabien Roussel",
+      "description": "Électrification, nucléaire développé, EnR, propriété publique et critique du marché européen.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_amar-bellal",
+      "type": "person",
+      "name": "Amar Bellal",
+      "description": "Interface science, filière et syndicats autour du nucléaire communiste.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_fabien-gay",
+      "type": "person",
+      "name": "Fabien Gay",
+      "description": "Pôle public de l’énergie, souveraineté, nucléaire et prix.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_david-lisnard",
+      "type": "person",
+      "name": "David Lisnard",
+      "description": "Nucléaire, innovation, économie écologique de marché et moindre intervention administrative.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_herv-novelli",
+      "type": "person",
+      "name": "Hervé Novelli",
+      "description": "Coordinateur officiel du projet général.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_michel-cavargini",
+      "type": "person",
+      "name": "Michel Cavargini",
+      "description": "Responsable officiel du projet et des groupes de travail.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_groupe-nergie-nouvelle-nergie",
+      "type": "organization",
+      "name": "Groupe énergie Nouvelle Énergie",
+      "description": "Composition insuffisamment publique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_raphal-glucksmann",
+      "type": "person",
+      "name": "Raphaël Glucksmann",
+      "description": "Souveraineté européenne, décarbonation et sécurité énergétique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_thomas-pellerin-carlin",
+      "type": "person",
+      "name": "Thomas Pellerin-Carlin",
+      "description": "Eurodéputé spécialisé dans les politiques européennes énergie-climat.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_dominique-de-villepin",
+      "type": "person",
+      "name": "Dominique de Villepin",
+      "description": "Doctrine en construction et démarches auprès d’acteurs de l’énergie.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_daniel-arlaud",
+      "type": "person",
+      "name": "Daniel Arlaud",
+      "description": "Coordination générale du projet politique.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_pierre-jrmie",
+      "type": "person",
+      "name": "Pierre Jérémie",
+      "description": "Profil technique cité comme appui sur le dossier énergie.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_nicolas-dupont-aignan",
+      "type": "person",
+      "name": "Nicolas Dupont-Aignan",
+      "description": "Nucléaire, indépendance nationale et critique du marché UE.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_fabien-bougl",
+      "type": "person",
+      "name": "Fabien Bouglé",
+      "description": "Proximité intellectuelle sur l’éolien et l’énergie ; rôle officiel non établi.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_florian-philippot",
+      "type": "person",
+      "name": "Florian Philippot",
+      "description": "Frexit, EDF public, nucléaire, hydro et moratoire éolien.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_franois-asselineau",
+      "type": "person",
+      "name": "François Asselineau",
+      "description": "Souveraineté juridique via sortie de l’UE ; doctrine détaillée à documenter.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_nathalie-arthaud",
+      "type": "person",
+      "name": "Nathalie Arthaud",
+      "description": "Propriété des moyens de production, contrôle des travailleurs et critique des grands groupes.",
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "actor_angelique-huguin",
+      "name": "Angélique Huguin",
+      "type": "person",
+      "description": "Militante antinucléaire, co-anime le livret énergie de La France Insoumise."
+    },
+    {
+      "id": "actor_maxime-laisney",
+      "name": "Maxime Laisney",
+      "type": "person",
+      "description": "Député LFI actif sur le mix énergétique, le nucléaire et la structure des prix."
+    },
+    {
+      "id": "actor_matthias-tavel",
+      "name": "Matthias Tavel",
+      "type": "person",
+      "description": "Député LFI référent pour la mer, actif sur l'hydroélectricité et l'éolien en mer."
+    },
+    {
+      "id": "actor_alain-delmestre",
+      "name": "Alain Delmestre",
+      "type": "person",
+      "description": "Ancien de l'ASN, délégué thématique responsable de l'énergie pour le Parti socialiste."
+    },
+    {
+      "id": "actor_christophe-clergeau",
+      "name": "Christophe Clergeau",
+      "type": "person",
+      "description": "Secrétaire national du PS chargé de l'écologie."
+    },
+    {
+      "id": "actor_marie-simeon-perrin",
+      "name": "Marie Siméon Perrin",
+      "type": "person",
+      "description": "Spécialiste climat (Banque de France), co-dirige le CTN révolution énergétique chez Place publique."
+    },
+    {
+      "id": "actor_jean-luc-fugit",
+      "name": "Jean-Luc Fugit",
+      "type": "person",
+      "description": "Député Renaissance, anime le groupe de travail énergie de la campagne de Gabriel Attal."
+    },
+    {
+      "id": "actor_henri-alfandari",
+      "name": "Henri Alfandari",
+      "type": "person",
+      "description": "Député et secrétaire national Horizons, pilote la boucle d'experts énergie du candidat."
+    },
+    {
+      "id": "actor_clement-tonon",
+      "name": "Clément Tonon",
+      "type": "person",
+      "description": "Conseiller d'État, coordonne le pôle projet Horizons et assure le filtre politique."
+    },
+    {
+      "id": "actor_stephane-piednoir",
+      "name": "Stéphane Piednoir",
+      "type": "person",
+      "description": "Secrétaire national de LR chargé de l'énergie."
+    },
+    {
+      "id": "actor_andre-merlin",
+      "name": "André Merlin",
+      "type": "person",
+      "description": "Ancien président du directoire de RTE, pilote le livret Électricité pour LR."
+    },
+    {
+      "id": "actor_philippe-charlez",
+      "name": "Philippe Charlez",
+      "type": "person",
+      "description": "Ancien de TotalEnergies, pilote le groupe de travail Énergie-Climat pour LR."
+    },
+    {
+      "id": "actor_laure-carrel-billiard",
+      "name": "Laure Carrel-Billiard",
+      "type": "person",
+      "description": "Collaboratrice parlementaire (ex-Naarea), experte au sein du GT énergie RN."
+    },
+    {
+      "id": "actor_corentin-jousserand",
+      "name": "Corentin Jousserand",
+      "type": "person",
+      "description": "Conseiller du groupe RN à la commission des finances, expert du GT énergie."
+    },
+    {
+      "id": "actor_alexandre-loubet",
+      "name": "Alexandre Loubet",
+      "type": "person",
+      "description": "Député et conseiller spécial de Jordan Bardella, chargé de consulter les filières industrie et énergie."
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation_rn_1",
+      "fromId": "actor_marine-le-pen",
+      "toId": "org_rn",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidate / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Arbitre politique final ; nucléaire central, souveraineté nationale et rupture avec le fonctionnement actuel du marché UE."
+    },
+    {
+      "id": "relation_rn_2",
+      "fromId": "actor_jean-philippe-tanguy",
+      "toId": "org_rn",
+      "relationType": "candidate_for",
+      "roleLabel": "Arbitre politico-programmatique",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire massif, hydro, souveraineté tarifaire, critique de la libéralisation européenne."
+    },
+    {
+      "id": "relation_rn_3",
+      "fromId": "actor_maxime-amblard",
+      "toId": "org_rn",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expert technique / député",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Ingénieur en physique nucléaire ; très actif sur PPE et EnR."
+    },
+    {
+      "id": "relation_rn_4",
+      "fromId": "actor_ambroise-de-rancourt",
+      "toId": "org_rn",
+      "relationType": "influences",
+      "roleLabel": "Entourage stratégique",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Influence liée à l’accès à l’arbitrage ; nuance interne signalée sur le photovoltaïque."
+    },
+    {
+      "id": "relation_rn_5",
+      "fromId": "actor_nicolas-meizonnet",
+      "toId": "org_rn",
+      "relationType": "influences",
+      "roleLabel": "Relais sectoriel",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Élu impliqué dans l’écosystème énergie ; rôle programmatique moins formalisé."
+    },
+    {
+      "id": "relation_rn_6",
+      "fromId": "actor_les-horaces",
+      "toId": "org_rn",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Réseau d’experts",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Réseau historiquement associé au RN ; rôle énergie 2027 insuffisamment documenté."
+    },
+    {
+      "id": "relation_ren_1",
+      "fromId": "actor_gabriel-attal",
+      "toId": "org_ren",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Doit arbitrer entre continuité technique et différenciation politique."
+    },
+    {
+      "id": "relation_ren_2",
+      "fromId": "actor_agns-pannier-runacher",
+      "toId": "org_ren",
+      "relationType": "participates_in",
+      "roleLabel": "Référence énergie",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire et EnR, pilotabilité, batteries, hydrogène, géothermie et compétitivité."
+    },
+    {
+      "id": "relation_ren_3",
+      "fromId": "actor_antoine-armand",
+      "toId": "org_ren",
+      "relationType": "influences",
+      "roleLabel": "Parlementaire énergie",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Capital technique et politique sur la souveraineté énergétique."
+    },
+    {
+      "id": "relation_ren_4",
+      "fromId": "actor_maud-bregeon",
+      "toId": "org_ren",
+      "relationType": "influences",
+      "roleLabel": "Spécialiste nucléaire",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Ancienne ingénieure EDF ; expertise filière et relance nucléaire."
+    },
+    {
+      "id": "relation_ren_5",
+      "fromId": "actor_roland-lescure",
+      "toId": "org_ren",
+      "relationType": "influences",
+      "roleLabel": "Industrie / énergie",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Décarbonation industrielle, électrification et compétitivité."
+    },
+    {
+      "id": "relation_hor_1",
+      "fromId": "actor_douard-philippe",
+      "toId": "org_hor",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Fixe la cohérence générale et budgétaire."
+    },
+    {
+      "id": "relation_hor_2",
+      "fromId": "actor_christophe-bchu",
+      "toId": "org_hor",
+      "relationType": "participates_in",
+      "roleLabel": "Chef de file énergie transversal",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire, EnR, stockage, flexibilité, Europe et planification 2050."
+    },
+    {
+      "id": "relation_hor_3",
+      "fromId": "actor_maud-bregeon",
+      "toId": "org_hor",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Soutien / expertise nucléaire",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Ressource nucléaire visible sans fonction opérationnelle établie dans la campagne."
+    },
+    {
+      "id": "relation_lr_1",
+      "fromId": "actor_bruno-retailleau",
+      "toId": "org_lr",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Porte la relance nucléaire et la critique des soutiens à l’éolien et au solaire."
+    },
+    {
+      "id": "relation_lr_2",
+      "fromId": "actor_julien-aubert",
+      "toId": "org_lr",
+      "relationType": "writes_program_for",
+      "roleLabel": "Architecte doctrinal",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Vice-président LR, président de l’Institut Valmy et co-signataire de la doctrine énergie."
+    },
+    {
+      "id": "relation_lr_3",
+      "fromId": "actor_daniel-gremillet",
+      "toId": "org_lr",
+      "relationType": "influences",
+      "roleLabel": "Technicien parlementaire",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Investi dans la programmation énergétique et sa traduction législative."
+    },
+    {
+      "id": "relation_lr_4",
+      "fromId": "actor_franois-xavier-bellamy",
+      "toId": "org_lr",
+      "relationType": "influences",
+      "roleLabel": "Relais doctrinal",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Co-signataire de la ligne énergie."
+    },
+    {
+      "id": "relation_lr_5",
+      "fromId": "actor_antoine-vermorel-marques",
+      "toId": "org_lr",
+      "relationType": "influences",
+      "roleLabel": "Parlementaire énergie",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Actif sur énergie, prix et écologie de marché."
+    },
+    {
+      "id": "relation_lfi_1",
+      "fromId": "actor_jean-luc-mlenchon",
+      "toId": "org_lfi",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Planification, sobriété, renouvelables à terme et sortie du nucléaire dans le corpus historique."
+    },
+    {
+      "id": "relation_lfi_2",
+      "fromId": "actor_clmence-guett",
+      "toId": "org_lfi",
+      "relationType": "writes_program_for",
+      "roleLabel": "Coordination programmatique",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Figure centrale de la cohérence générale du programme."
+    },
+    {
+      "id": "relation_lfi_3",
+      "fromId": "actor_hadrien-clouet",
+      "toId": "org_lfi",
+      "relationType": "writes_program_for",
+      "roleLabel": "Coordination programmatique",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Co-coordinateur de l’espace programmatique."
+    },
+    {
+      "id": "relation_lfi_4",
+      "fromId": "actor_manuel-bompard",
+      "toId": "org_lfi",
+      "relationType": "writes_program_for",
+      "roleLabel": "Coordination politique",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Pont entre travaux sectoriels et stratégie nationale."
+    },
+    {
+      "id": "relation_lfi_5",
+      "fromId": "actor_claire-lejeune",
+      "toId": "org_lfi",
+      "relationType": "participates_in",
+      "roleLabel": "Planification écologique / ILB",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Interface doctrine écologique et appareil intellectuel."
+    },
+    {
+      "id": "relation_lfi_6",
+      "fromId": "actor_jean-baptiste-grenier",
+      "toId": "org_lfi",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expert technique",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Coordinateur d’une note sur la gouvernance du système énergétique par les besoins."
+    },
+    {
+      "id": "relation_lfi_7",
+      "fromId": "actor_alma-dufour",
+      "toId": "org_lfi",
+      "relationType": "influences",
+      "roleLabel": "Relais parlementaire",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Énergie-industrie, sobriété juste et maîtrise publique."
+    },
+    {
+      "id": "relation_lfi_8",
+      "fromId": "actor_marignac-debrgeas-nicoloso-brom",
+      "toId": "org_lfi",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Écosystème expert",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Experts récurrents autour des travaux de l’Institut La Boétie."
+    },
+    {
+      "id": "relation_eco_1",
+      "fromId": "actor_marine-tondelier",
+      "toId": "org_eco",
+      "relationType": "candidate_for",
+      "roleLabel": "Figure présidentielle / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Accélération EnR, sobriété, efficacité et sortie progressive du nucléaire."
+    },
+    {
+      "id": "relation_eco_2",
+      "fromId": "actor_commission-nergie-climat",
+      "toId": "org_eco",
+      "relationType": "participates_in",
+      "roleLabel": "Structure programmatique",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Contribue à la doctrine et apporte une expertise aux élus."
+    },
+    {
+      "id": "relation_eco_3",
+      "fromId": "actor_julie-laernoes",
+      "toId": "org_eco",
+      "relationType": "participates_in",
+      "roleLabel": "Interface parlementaire énergie",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Travaille sur la programmation énergétique et la PPE."
+    },
+    {
+      "id": "relation_eco_4",
+      "fromId": "actor_yannick-jadot",
+      "toId": "org_eco",
+      "relationType": "influences",
+      "roleLabel": "Référence historique",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Ancien candidat et figure énergie-climat ; rôle 2027 à documenter."
+    },
+    {
+      "id": "relation_eco_5",
+      "fromId": "actor_nicolas-thierry",
+      "toId": "org_eco",
+      "relationType": "influences",
+      "roleLabel": "Relais parlementaire",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Actif sur les sujets de transition."
+    },
+    {
+      "id": "relation_ps_1",
+      "fromId": "actor_olivier-faure",
+      "toId": "org_ps",
+      "relationType": "candidate_for",
+      "roleLabel": "Arbitre politique",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire autant que nécessaire, EnR autant que possible."
+    },
+    {
+      "id": "relation_ps_2",
+      "fromId": "actor_chlo-ridel",
+      "toId": "org_ps",
+      "relationType": "writes_program_for",
+      "roleLabel": "Coordinatrice du projet",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Coordonne la refondation programmatique et les auditions."
+    },
+    {
+      "id": "relation_ps_3",
+      "fromId": "actor_philippe-brun",
+      "toId": "org_ps",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat primaire / énergie-industrie",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "EDF public, sortie du marché européen de l’électricité et prix bas."
+    },
+    {
+      "id": "relation_ps_4",
+      "fromId": "actor_responsable-nergie-ps-2027",
+      "toId": "org_ps",
+      "relationType": "participates_in",
+      "roleLabel": "Angle mort",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "unknown",
+      "certainty": "unknown",
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Aucun responsable sectoriel unique suffisamment établi."
+    },
+    {
+      "id": "relation_pcf_1",
+      "fromId": "actor_fabien-roussel",
+      "toId": "org_pcf",
+      "relationType": "candidate_for",
+      "roleLabel": "Arbitre politique",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Électrification, nucléaire développé, EnR, propriété publique et critique du marché européen."
+    },
+    {
+      "id": "relation_pcf_2",
+      "fromId": "actor_amar-bellal",
+      "toId": "org_pcf",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expert / organisateur doctrinal",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Interface science, filière et syndicats autour du nucléaire communiste."
+    },
+    {
+      "id": "relation_pcf_3",
+      "fromId": "actor_fabien-gay",
+      "toId": "org_pcf",
+      "relationType": "influences",
+      "roleLabel": "Relais parlementaire",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Pôle public de l’énergie, souveraineté, nucléaire et prix."
+    },
+    {
+      "id": "relation_ne_1",
+      "fromId": "actor_david-lisnard",
+      "toId": "org_ne",
+      "relationType": "participates_in",
+      "roleLabel": "Chef de mouvement",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire, innovation, économie écologique de marché et moindre intervention administrative."
+    },
+    {
+      "id": "relation_ne_2",
+      "fromId": "actor_herv-novelli",
+      "toId": "org_ne",
+      "relationType": "writes_program_for",
+      "roleLabel": "Coordinateur du projet",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Coordinateur officiel du projet général."
+    },
+    {
+      "id": "relation_ne_3",
+      "fromId": "actor_michel-cavargini",
+      "toId": "org_ne",
+      "relationType": "participates_in",
+      "roleLabel": "Responsable projet / groupes",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Responsable officiel du projet et des groupes de travail."
+    },
+    {
+      "id": "relation_ne_4",
+      "fromId": "actor_groupe-nergie-nouvelle-nergie",
+      "toId": "org_ne",
+      "relationType": "participates_in",
+      "roleLabel": "Angle mort",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "unknown",
+      "certainty": "unknown",
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Composition insuffisamment publique."
+    },
+    {
+      "id": "relation_pp_1",
+      "fromId": "actor_raphal-glucksmann",
+      "toId": "org_pp",
+      "relationType": "influences",
+      "roleLabel": "Figure présidentielle potentielle",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Souveraineté européenne, décarbonation et sécurité énergétique."
+    },
+    {
+      "id": "relation_pp_2",
+      "fromId": "actor_thomas-pellerin-carlin",
+      "toId": "org_pp",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expert politique énergie-climat",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Eurodéputé spécialisé dans les politiques européennes énergie-climat."
+    },
+    {
+      "id": "relation_ville_1",
+      "fromId": "actor_dominique-de-villepin",
+      "toId": "org_ville",
+      "relationType": "candidate_for",
+      "roleLabel": "Prétendant / arbitre",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Doctrine en construction et démarches auprès d’acteurs de l’énergie."
+    },
+    {
+      "id": "relation_ville_2",
+      "fromId": "actor_daniel-arlaud",
+      "toId": "org_ville",
+      "relationType": "participates_in",
+      "roleLabel": "Responsable pôle idées",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Coordination générale du projet politique."
+    },
+    {
+      "id": "relation_ville_3",
+      "fromId": "actor_pierre-jrmie",
+      "toId": "org_ville",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Appui technique énergie",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Profil technique cité comme appui sur le dossier énergie."
+    },
+    {
+      "id": "relation_souv_1",
+      "fromId": "actor_nicolas-dupont-aignan",
+      "toId": "org_souv",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Nucléaire, indépendance nationale et critique du marché UE."
+    },
+    {
+      "id": "relation_souv_2",
+      "fromId": "actor_fabien-bougl",
+      "toId": "org_souv",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expert proche / écosystème",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "sourceIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": "Proximité intellectuelle sur l’éolien et l’énergie ; rôle officiel non établi."
+    },
+    {
+      "id": "relation_souv_3",
+      "fromId": "actor_florian-philippot",
+      "toId": "org_souv",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Frexit, EDF public, nucléaire, hydro et moratoire éolien."
+    },
+    {
+      "id": "relation_souv_4",
+      "fromId": "actor_franois-asselineau",
+      "toId": "org_souv",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidat",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Souveraineté juridique via sortie de l’UE ; doctrine détaillée à documenter."
+    },
+    {
+      "id": "relation_lo_1",
+      "fromId": "actor_nathalie-arthaud",
+      "toId": "org_lo",
+      "relationType": "candidate_for",
+      "roleLabel": "Candidate",
+      "influenceLayer": "decision",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": "Propriété des moyens de production, contrôle des travailleurs et critique des grands groupes."
+    },
+    {
+      "id": "relation_migrated_054",
+      "fromId": "actor_angelique-huguin",
+      "toId": "org_lfi",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_055",
+      "fromId": "actor_maxime-laisney",
+      "toId": "org_lfi",
+      "relationType": "influences",
+      "roleLabel": "Contribution ou influence rapportée",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_056",
+      "fromId": "actor_matthias-tavel",
+      "toId": "org_lfi",
+      "relationType": "influences",
+      "roleLabel": "Contribution ou influence rapportée",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_057",
+      "fromId": "actor_alain-delmestre",
+      "toId": "org_ps",
+      "relationType": "technical_expert_for",
+      "roleLabel": "Expertise technique",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_058",
+      "fromId": "actor_christophe-clergeau",
+      "toId": "org_ps",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_059",
+      "fromId": "actor_marie-simeon-perrin",
+      "toId": "org_pp",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_060",
+      "fromId": "actor_jean-luc-fugit",
+      "toId": "org_ren",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_061",
+      "fromId": "actor_agns-pannier-runacher",
+      "toId": "actor_jean-luc-fugit",
+      "relationType": "participates_in",
+      "roleLabel": "Participation",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_062",
+      "fromId": "actor_henri-alfandari",
+      "toId": "org_hor",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_063",
+      "fromId": "actor_clement-tonon",
+      "toId": "actor_henri-alfandari",
+      "relationType": "influences",
+      "roleLabel": "Contribution ou influence rapportée",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_064",
+      "fromId": "actor_stephane-piednoir",
+      "toId": "org_lr",
+      "relationType": "participates_in",
+      "roleLabel": "Participation",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_065",
+      "fromId": "actor_andre-merlin",
+      "toId": "org_lr",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_066",
+      "fromId": "actor_philippe-charlez",
+      "toId": "org_lr",
+      "relationType": "coordinates",
+      "roleLabel": "Coordination",
+      "influenceLayer": "production",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_067",
+      "fromId": "actor_laure-carrel-billiard",
+      "toId": "actor_ambroise-de-rancourt",
+      "relationType": "participates_in",
+      "roleLabel": "Participation",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_068",
+      "fromId": "actor_corentin-jousserand",
+      "toId": "actor_ambroise-de-rancourt",
+      "relationType": "participates_in",
+      "roleLabel": "Participation",
+      "influenceLayer": "expertise",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "to_review",
+      "notes": null
+    },
+    {
+      "id": "relation_migrated_069",
+      "fromId": "actor_alexandre-loubet",
+      "toId": "org_rn",
+      "relationType": "influences",
+      "roleLabel": "Contribution ou influence rapportée",
+      "influenceLayer": "ecosystem",
+      "topicIds": [
+        "public_control"
+      ],
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "reviewStatus": "validated",
+      "notes": null
+    }
+  ],
+  "positions": [
+    {
+      "id": "position_rn_nuclear",
+      "holderId": "org_rn",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : relance massive",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_renewables",
+      "holderId": "org_rn",
+      "topicId": "renewables",
+      "summary": "Éolien : très hostile · Photovoltaïque : critique, nuance interne signalée",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_renewables_1",
+        "claim_policy_rn_renewables_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_hydro",
+      "holderId": "org_rn",
+      "topicId": "hydro",
+      "summary": "Hydro : très favorable",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_hydro_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_geothermal",
+      "holderId": "org_rn",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_sobriety",
+      "holderId": "org_rn",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_electrification",
+      "holderId": "org_rn",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_public_control",
+      "holderId": "org_rn",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_eu_integration",
+      "holderId": "org_rn",
+      "topicId": "eu_integration",
+      "summary": "Photovoltaïque : critique, nuance interne signalée · Marché UE : volonté de rupture profonde",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_eu_integration_1",
+        "claim_policy_rn_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_market",
+      "holderId": "org_rn",
+      "topicId": "market",
+      "summary": "Marché UE : volonté de rupture profonde",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_grid",
+      "holderId": "org_rn",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_industrial_sovereignty",
+      "holderId": "org_rn",
+      "topicId": "industrial_sovereignty",
+      "summary": "Prix : baisse des taxes et souveraineté tarifaire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_industrial_sovereignty_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_rn_price_intervention",
+      "holderId": "org_rn",
+      "topicId": "price_intervention",
+      "summary": "Prix : baisse des taxes et souveraineté tarifaire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_rn_price_intervention_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_nuclear",
+      "holderId": "org_ren",
+      "topicId": "nuclear",
+      "summary": "Nucléaire et EnR : complémentarité",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_renewables",
+      "holderId": "org_ren",
+      "topicId": "renewables",
+      "summary": "Nucléaire et EnR : complémentarité",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_hydro",
+      "holderId": "org_ren",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_geothermal",
+      "holderId": "org_ren",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_sobriety",
+      "holderId": "org_ren",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_electrification",
+      "holderId": "org_ren",
+      "topicId": "electrification",
+      "summary": "Industrie : électrification",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_electrification_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_public_control",
+      "holderId": "org_ren",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_eu_integration",
+      "holderId": "org_ren",
+      "topicId": "eu_integration",
+      "summary": "Europe : intégration assumée · Prix : compétitivité plutôt que rupture",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_eu_integration_1",
+        "claim_policy_ren_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_market",
+      "holderId": "org_ren",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_grid",
+      "holderId": "org_ren",
+      "topicId": "grid",
+      "summary": "Pilotabilité et stockage : priorité",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_grid_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_industrial_sovereignty",
+      "holderId": "org_ren",
+      "topicId": "industrial_sovereignty",
+      "summary": "Industrie : électrification",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_industrial_sovereignty_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ren_price_intervention",
+      "holderId": "org_ren",
+      "topicId": "price_intervention",
+      "summary": "Prix : compétitivité plutôt que rupture",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ren_price_intervention_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_nuclear",
+      "holderId": "org_hor",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : prolonger et construire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_hor_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_renewables",
+      "holderId": "org_hor",
+      "topicId": "renewables",
+      "summary": "EnR : compléments indispensables",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_hor_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_hydro",
+      "holderId": "org_hor",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_geothermal",
+      "holderId": "org_hor",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_sobriety",
+      "holderId": "org_hor",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_electrification",
+      "holderId": "org_hor",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_public_control",
+      "holderId": "org_hor",
+      "topicId": "public_control",
+      "summary": "Planification 2050 intégrée",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_hor_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_eu_integration",
+      "holderId": "org_hor",
+      "topicId": "eu_integration",
+      "summary": "Europe : pilier",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_hor_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_market",
+      "holderId": "org_hor",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_grid",
+      "holderId": "org_hor",
+      "topicId": "grid",
+      "summary": "Stockage et flexibilité : priorité",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_hor_grid_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_industrial_sovereignty",
+      "holderId": "org_hor",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_hor_price_intervention",
+      "holderId": "org_hor",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_nuclear",
+      "holderId": "org_lr",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : priorité quasi absolue",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_renewables",
+      "holderId": "org_lr",
+      "topicId": "renewables",
+      "summary": "Éolien et solaire : arrêt des subventions",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_hydro",
+      "holderId": "org_lr",
+      "topicId": "hydro",
+      "summary": "Hydro : favorable",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_hydro_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_geothermal",
+      "holderId": "org_lr",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_sobriety",
+      "holderId": "org_lr",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_electrification",
+      "holderId": "org_lr",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_public_control",
+      "holderId": "org_lr",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_eu_integration",
+      "holderId": "org_lr",
+      "topicId": "eu_integration",
+      "summary": "Nucléaire : priorité quasi absolue · Marché UE : critique",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_eu_integration_1",
+        "claim_policy_lr_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_market",
+      "holderId": "org_lr",
+      "topicId": "market",
+      "summary": "Marché UE : critique",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_grid",
+      "holderId": "org_lr",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_industrial_sovereignty",
+      "holderId": "org_lr",
+      "topicId": "industrial_sovereignty",
+      "summary": "Souveraineté industrielle : très forte",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lr_industrial_sovereignty_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lr_price_intervention",
+      "holderId": "org_lr",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_nuclear",
+      "holderId": "org_lfi",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : sortie à terme dans le corpus historique",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_renewables",
+      "holderId": "org_lfi",
+      "topicId": "renewables",
+      "summary": "EnR : 100 % à terme",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_hydro",
+      "holderId": "org_lfi",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_geothermal",
+      "holderId": "org_lfi",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_sobriety",
+      "holderId": "org_lfi",
+      "topicId": "sobriety",
+      "summary": "Sobriété : structurante",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_sobriety_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_electrification",
+      "holderId": "org_lfi",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_public_control",
+      "holderId": "org_lfi",
+      "topicId": "public_control",
+      "summary": "Public : planification et maîtrise",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_eu_integration",
+      "holderId": "org_lfi",
+      "topicId": "eu_integration",
+      "summary": "Nucléaire : sortie à terme dans le corpus historique · Marché : rupture avec la logique libérale",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_eu_integration_1",
+        "claim_policy_lfi_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_market",
+      "holderId": "org_lfi",
+      "topicId": "market",
+      "summary": "Marché : rupture avec la logique libérale",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lfi_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_grid",
+      "holderId": "org_lfi",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_industrial_sovereignty",
+      "holderId": "org_lfi",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lfi_price_intervention",
+      "holderId": "org_lfi",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_nuclear",
+      "holderId": "org_eco",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : sortie progressive",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_eco_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_renewables",
+      "holderId": "org_eco",
+      "topicId": "renewables",
+      "summary": "EnR : accélération massive",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_eco_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_hydro",
+      "holderId": "org_eco",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_geothermal",
+      "holderId": "org_eco",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_sobriety",
+      "holderId": "org_eco",
+      "topicId": "sobriety",
+      "summary": "Sobriété et efficacité : centrales",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_eco_sobriety_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_electrification",
+      "holderId": "org_eco",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_public_control",
+      "holderId": "org_eco",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_eu_integration",
+      "holderId": "org_eco",
+      "topicId": "eu_integration",
+      "summary": "Europe : gouvernance solidaire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_eco_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_market",
+      "holderId": "org_eco",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_grid",
+      "holderId": "org_eco",
+      "topicId": "grid",
+      "summary": "Réseau : très structurant",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_eco_grid_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_industrial_sovereignty",
+      "holderId": "org_eco",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_eco_price_intervention",
+      "holderId": "org_eco",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_nuclear",
+      "holderId": "org_ps",
+      "topicId": "nuclear",
+      "summary": "Faure : nucléaire conservé mais moins d’EPR2",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ps_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_renewables",
+      "holderId": "org_ps",
+      "topicId": "renewables",
+      "summary": "EnR : effort maximal",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ps_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_hydro",
+      "holderId": "org_ps",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_geothermal",
+      "holderId": "org_ps",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_sobriety",
+      "holderId": "org_ps",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_electrification",
+      "holderId": "org_ps",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_public_control",
+      "holderId": "org_ps",
+      "topicId": "public_control",
+      "summary": "Brun : EDF public et sortie du marché UE",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ps_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_eu_integration",
+      "holderId": "org_ps",
+      "topicId": "eu_integration",
+      "summary": "Brun : EDF public et sortie du marché UE",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ps_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_market",
+      "holderId": "org_ps",
+      "topicId": "market",
+      "summary": "Brun : EDF public et sortie du marché UE",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ps_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_grid",
+      "holderId": "org_ps",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_industrial_sovereignty",
+      "holderId": "org_ps",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ps_price_intervention",
+      "holderId": "org_ps",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_nuclear",
+      "holderId": "org_pcf",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : développement massif · EnR : nécessaires avec nucléaire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_nuclear_1",
+        "claim_policy_pcf_nuclear_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_renewables",
+      "holderId": "org_pcf",
+      "topicId": "renewables",
+      "summary": "EnR : nécessaires avec nucléaire",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_hydro",
+      "holderId": "org_pcf",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_geothermal",
+      "holderId": "org_pcf",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_sobriety",
+      "holderId": "org_pcf",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_electrification",
+      "holderId": "org_pcf",
+      "topicId": "electrification",
+      "summary": "Industrie : électrification",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_electrification_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_public_control",
+      "holderId": "org_pcf",
+      "topicId": "public_control",
+      "summary": "Public : maîtrise et pôle public",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_eu_integration",
+      "holderId": "org_pcf",
+      "topicId": "eu_integration",
+      "summary": "Marché UE : sortie du marché spéculatif",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_market",
+      "holderId": "org_pcf",
+      "topicId": "market",
+      "summary": "Marché UE : sortie du marché spéculatif",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_grid",
+      "holderId": "org_pcf",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_industrial_sovereignty",
+      "holderId": "org_pcf",
+      "topicId": "industrial_sovereignty",
+      "summary": "Industrie : électrification",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pcf_industrial_sovereignty_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pcf_price_intervention",
+      "holderId": "org_pcf",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_nuclear",
+      "holderId": "org_ne",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : central",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ne_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_renewables",
+      "holderId": "org_ne",
+      "topicId": "renewables",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_hydro",
+      "holderId": "org_ne",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_geothermal",
+      "holderId": "org_ne",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_sobriety",
+      "holderId": "org_ne",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_electrification",
+      "holderId": "org_ne",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_public_control",
+      "holderId": "org_ne",
+      "topicId": "public_control",
+      "summary": "État : moins interventionniste",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ne_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_eu_integration",
+      "holderId": "org_ne",
+      "topicId": "eu_integration",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_market",
+      "holderId": "org_ne",
+      "topicId": "market",
+      "summary": "Marché : approche libérale",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ne_market_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_grid",
+      "holderId": "org_ne",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_industrial_sovereignty",
+      "holderId": "org_ne",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ne_price_intervention",
+      "holderId": "org_ne",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_nuclear",
+      "holderId": "org_pp",
+      "topicId": "nuclear",
+      "summary": "Nucléaire : position 2027 à préciser",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pp_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_renewables",
+      "holderId": "org_pp",
+      "topicId": "renewables",
+      "summary": "EnR : forte accélération probable",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pp_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_hydro",
+      "holderId": "org_pp",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_geothermal",
+      "holderId": "org_pp",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_sobriety",
+      "holderId": "org_pp",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_electrification",
+      "holderId": "org_pp",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_public_control",
+      "holderId": "org_pp",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_eu_integration",
+      "holderId": "org_pp",
+      "topicId": "eu_integration",
+      "summary": "Europe : souveraineté énergétique · Industrie : sécurité économique européenne",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pp_eu_integration_1",
+        "claim_policy_pp_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_market",
+      "holderId": "org_pp",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_grid",
+      "holderId": "org_pp",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_industrial_sovereignty",
+      "holderId": "org_pp",
+      "topicId": "industrial_sovereignty",
+      "summary": "Europe : souveraineté énergétique · Industrie : sécurité économique européenne",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_pp_industrial_sovereignty_1",
+        "claim_policy_pp_industrial_sovereignty_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_pp_price_intervention",
+      "holderId": "org_pp",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_nuclear",
+      "holderId": "org_ville",
+      "topicId": "nuclear",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_renewables",
+      "holderId": "org_ville",
+      "topicId": "renewables",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_hydro",
+      "holderId": "org_ville",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_geothermal",
+      "holderId": "org_ville",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_sobriety",
+      "holderId": "org_ville",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_electrification",
+      "holderId": "org_ville",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_public_control",
+      "holderId": "org_ville",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_eu_integration",
+      "holderId": "org_ville",
+      "topicId": "eu_integration",
+      "summary": "Europe : probablement structurante",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ville_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_market",
+      "holderId": "org_ville",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_grid",
+      "holderId": "org_ville",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_industrial_sovereignty",
+      "holderId": "org_ville",
+      "topicId": "industrial_sovereignty",
+      "summary": "Méthode : rencontres filière et experts",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_ville_industrial_sovereignty_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_ville_price_intervention",
+      "holderId": "org_ville",
+      "topicId": "price_intervention",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_nuclear",
+      "holderId": "org_souv",
+      "topicId": "nuclear",
+      "summary": "Nucléaire et hydro : priorités",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_souv_nuclear_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_renewables",
+      "holderId": "org_souv",
+      "topicId": "renewables",
+      "summary": "Éolien : très hostile",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_souv_renewables_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_hydro",
+      "holderId": "org_souv",
+      "topicId": "hydro",
+      "summary": "Nucléaire et hydro : priorités",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_souv_hydro_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_geothermal",
+      "holderId": "org_souv",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_sobriety",
+      "holderId": "org_souv",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_electrification",
+      "holderId": "org_souv",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_public_control",
+      "holderId": "org_souv",
+      "topicId": "public_control",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_eu_integration",
+      "holderId": "org_souv",
+      "topicId": "eu_integration",
+      "summary": "Rupture UE : centrale",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_souv_eu_integration_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_market",
+      "holderId": "org_souv",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_grid",
+      "holderId": "org_souv",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_industrial_sovereignty",
+      "holderId": "org_souv",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_souv_price_intervention",
+      "holderId": "org_souv",
+      "topicId": "price_intervention",
+      "summary": "Prix : forte intervention selon les candidats",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_souv_price_intervention_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_nuclear",
+      "holderId": "org_lo",
+      "topicId": "nuclear",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_renewables",
+      "holderId": "org_lo",
+      "topicId": "renewables",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_hydro",
+      "holderId": "org_lo",
+      "topicId": "hydro",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_geothermal",
+      "holderId": "org_lo",
+      "topicId": "geothermal",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_sobriety",
+      "holderId": "org_lo",
+      "topicId": "sobriety",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_electrification",
+      "holderId": "org_lo",
+      "topicId": "electrification",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_public_control",
+      "holderId": "org_lo",
+      "topicId": "public_control",
+      "summary": "Propriété et contrôle : axe dominant",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lo_public_control_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_eu_integration",
+      "holderId": "org_lo",
+      "topicId": "eu_integration",
+      "summary": "Mix électrique : peu détaillé · Prix : critique des profits",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lo_eu_integration_1",
+        "claim_policy_lo_eu_integration_2"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_market",
+      "holderId": "org_lo",
+      "topicId": "market",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_grid",
+      "holderId": "org_lo",
+      "topicId": "grid",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_industrial_sovereignty",
+      "holderId": "org_lo",
+      "topicId": "industrial_sovereignty",
+      "summary": "Aucune position suffisamment documentée dans le corpus fourni pour ce thème.",
+      "status": "unknown",
+      "certainty": "unknown",
+      "claimIds": [],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    },
+    {
+      "id": "position_lo_price_intervention",
+      "holderId": "org_lo",
+      "topicId": "price_intervention",
+      "summary": "Prix : critique des profits",
+      "status": "partial",
+      "certainty": "reported",
+      "claimIds": [
+        "claim_policy_lo_price_intervention_1"
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "updatedAt": "2026-08-12"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_rn_dissent_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Une source sectorielle signale une dissension sur le coût et le sort du photovoltaïque.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_rn_dissent_2",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le rythme nucléaire se heurte aux capacités industrielles, à la sûreté, au financement et aux délais.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_rn_dissent_3",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le démantèlement d’éoliennes existantes semble moins central depuis 2024.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_rn_actor_1",
+      "subjectId": "actor_marine-le-pen",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Arbitre politique final ; nucléaire central, souveraineté nationale et rupture avec le fonctionnement actuel du marché UE.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_rn_actor_2",
+      "subjectId": "actor_jean-philippe-tanguy",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire massif, hydro, souveraineté tarifaire, critique de la libéralisation européenne.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_rn_actor_3",
+      "subjectId": "actor_maxime-amblard",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Ingénieur en physique nucléaire ; très actif sur PPE et EnR.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_rn_actor_4",
+      "subjectId": "actor_ambroise-de-rancourt",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Influence liée à l’accès à l’arbitrage ; nuance interne signalée sur le photovoltaïque.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_rn_actor_5",
+      "subjectId": "actor_nicolas-meizonnet",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Élu impliqué dans l’écosystème énergie ; rôle programmatique moins formalisé.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_rn_actor_6",
+      "subjectId": "actor_les-horaces",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Réseau historiquement associé au RN ; rôle énergie 2027 insuffisamment documenté.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ren_dissent_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Se différencier de l’héritage Macron tout en assumant la continuité énergétique.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ren_dissent_2",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Arbitrer entre électrification, soutiens publics et discipline budgétaire.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ren_actor_1",
+      "subjectId": "actor_gabriel-attal",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Doit arbitrer entre continuité technique et différenciation politique.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ren_actor_2",
+      "subjectId": "actor_agns-pannier-runacher",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire et EnR, pilotabilité, batteries, hydrogène, géothermie et compétitivité.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ren_actor_3",
+      "subjectId": "actor_antoine-armand",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Capital technique et politique sur la souveraineté énergétique.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ren_actor_4",
+      "subjectId": "actor_maud-bregeon",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Ancienne ingénieure EDF ; expertise filière et relance nucléaire.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ren_actor_5",
+      "subjectId": "actor_roland-lescure",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Décarbonation industrielle, électrification et compétitivité.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_hor_dissent_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Pas de dissension énergie publique majeure documentée.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_hor_dissent_2",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "L’arbitrage principal sera budgétaire : nucléaire, réseau, adaptation et aides.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_hor_actor_1",
+      "subjectId": "actor_douard-philippe",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Fixe la cohérence générale et budgétaire.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_hor_actor_2",
+      "subjectId": "actor_christophe-bchu",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire, EnR, stockage, flexibilité, Europe et planification 2050.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_hor_actor_3",
+      "subjectId": "actor_maud-bregeon",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Ressource nucléaire visible sans fonction opérationnelle établie dans la campagne.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lr_dissent_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Les EPR2 ne couvrent pas les besoins additionnels immédiats.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lr_dissent_2",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le chiffrage du réseau, de la flexibilité et du financement reste à consolider.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lr_actor_1",
+      "subjectId": "actor_bruno-retailleau",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Porte la relance nucléaire et la critique des soutiens à l’éolien et au solaire.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lr_actor_2",
+      "subjectId": "actor_julien-aubert",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Vice-président LR, président de l’Institut Valmy et co-signataire de la doctrine énergie.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lr_actor_3",
+      "subjectId": "actor_daniel-gremillet",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Investi dans la programmation énergétique et sa traduction législative.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lr_actor_4",
+      "subjectId": "actor_franois-xavier-bellamy",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Co-signataire de la ligne énergie.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lr_actor_5",
+      "subjectId": "actor_antoine-vermorel-marques",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Actif sur énergie, prix et écologie de marché.",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lfi_dissent_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Différence entre doctrine de sortie du nucléaire et compromis d’alliance de 2024.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lfi_dissent_2",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Experts invités et conseillers organiques doivent rester distingués.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lfi_actor_1",
+      "subjectId": "actor_jean-luc-mlenchon",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Planification, sobriété, renouvelables à terme et sortie du nucléaire dans le corpus historique.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_2",
+      "subjectId": "actor_clmence-guett",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Figure centrale de la cohérence générale du programme.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_3",
+      "subjectId": "actor_hadrien-clouet",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Co-coordinateur de l’espace programmatique.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_4",
+      "subjectId": "actor_manuel-bompard",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Pont entre travaux sectoriels et stratégie nationale.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_5",
+      "subjectId": "actor_claire-lejeune",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Interface doctrine écologique et appareil intellectuel.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_6",
+      "subjectId": "actor_jean-baptiste-grenier",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Coordinateur d’une note sur la gouvernance du système énergétique par les besoins.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lfi_actor_7",
+      "subjectId": "actor_alma-dufour",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Énergie-industrie, sobriété juste et maîtrise publique.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lfi_actor_8",
+      "subjectId": "actor_marignac-debrgeas-nicoloso-brom",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Experts récurrents autour des travaux de l’Institut La Boétie.",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_eco_dissent_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "La trajectoire concrète doit articuler sécurité d’approvisionnement, stockage, réseau et acceptabilité.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_eco_dissent_2",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Une candidature commune à gauche pourrait imposer un compromis nucléaire.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_eco_actor_1",
+      "subjectId": "actor_marine-tondelier",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Accélération EnR, sobriété, efficacité et sortie progressive du nucléaire.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_eco_actor_2",
+      "subjectId": "actor_commission-nergie-climat",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Contribue à la doctrine et apporte une expertise aux élus.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_eco_actor_3",
+      "subjectId": "actor_julie-laernoes",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Travaille sur la programmation énergétique et la PPE.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_eco_actor_4",
+      "subjectId": "actor_yannick-jadot",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Ancien candidat et figure énergie-climat ; rôle 2027 à documenter.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_eco_actor_5",
+      "subjectId": "actor_nicolas-thierry",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Actif sur les sujets de transition.",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ps_dissent_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Faure porte un compromis nucléaire-EnR ; Brun pousse une rupture sur EDF et le marché européen.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ps_dissent_2",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Responsable énergie sectoriel unique non identifié.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ps_actor_1",
+      "subjectId": "actor_olivier-faure",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire autant que nécessaire, EnR autant que possible.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ps_actor_2",
+      "subjectId": "actor_chlo-ridel",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Coordonne la refondation programmatique et les auditions.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ps_actor_3",
+      "subjectId": "actor_philippe-brun",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "EDF public, sortie du marché européen de l’électricité et prix bas.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ps_actor_4",
+      "subjectId": "actor_responsable-nergie-ps-2027",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Aucun responsable sectoriel unique suffisamment établi.",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "unknown",
+      "certainty": "unknown",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pcf_dissent_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "La divergence avec LFI sur le nucléaire structure une tension majeure à gauche.",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pcf_dissent_2",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le débat porte surtout sur rythme, financement et technologies avancées.",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pcf_actor_1",
+      "subjectId": "actor_fabien-roussel",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Électrification, nucléaire développé, EnR, propriété publique et critique du marché européen.",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_pcf_actor_2",
+      "subjectId": "actor_amar-bellal",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Interface science, filière et syndicats autour du nucléaire communiste.",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pcf_actor_3",
+      "subjectId": "actor_fabien-gay",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Pôle public de l’énergie, souveraineté, nucléaire et prix.",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ne_dissent_1",
+      "subjectId": "org_ne",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le responsable réel du chapitre énergie reste un angle mort.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ne_dissent_2",
+      "subjectId": "org_ne",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "La doctrine libérale doit préciser le financement d’infrastructures capitalistiques.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ne_actor_1",
+      "subjectId": "actor_david-lisnard",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire, innovation, économie écologique de marché et moindre intervention administrative.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ne_actor_2",
+      "subjectId": "actor_herv-novelli",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Coordinateur officiel du projet général.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ne_actor_3",
+      "subjectId": "actor_michel-cavargini",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Responsable officiel du projet et des groupes de travail.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ne_actor_4",
+      "subjectId": "actor_groupe-nergie-nouvelle-nergie",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Composition insuffisamment publique.",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "unknown",
+      "certainty": "unknown",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pp_dissent_1",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Ne pas extrapoler automatiquement la position d’un expert au futur programme.",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pp_dissent_2",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Un accord avec le PS ferait ressortir des divergences sur le marché UE.",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pp_actor_1",
+      "subjectId": "actor_raphal-glucksmann",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Souveraineté européenne, décarbonation et sécurité énergétique.",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_pp_actor_2",
+      "subjectId": "actor_thomas-pellerin-carlin",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Eurodéputé spécialisé dans les politiques européennes énergie-climat.",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ville_dissent_1",
+      "subjectId": "org_ville",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le principal enjeu est l’incomplétude plus qu’une dissension établie.",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ville_dissent_2",
+      "subjectId": "org_ville",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Les rencontres filière indiquent une phase d’écoute.",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ville_actor_1",
+      "subjectId": "actor_dominique-de-villepin",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Doctrine en construction et démarches auprès d’acteurs de l’énergie.",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_ville_actor_2",
+      "subjectId": "actor_daniel-arlaud",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Coordination générale du projet politique.",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_ville_actor_3",
+      "subjectId": "actor_pierre-jrmie",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Profil technique cité comme appui sur le dossier énergie.",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_souv_dissent_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le groupe n’est pas homogène sur les modalités institutionnelles et économiques.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_souv_dissent_2",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Les techniciens capables de chiffrer le système restent peu visibles.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_souv_actor_1",
+      "subjectId": "actor_nicolas-dupont-aignan",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Nucléaire, indépendance nationale et critique du marché UE.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_souv_actor_2",
+      "subjectId": "actor_fabien-bougl",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Proximité intellectuelle sur l’éolien et l’énergie ; rôle officiel non établi.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "inferred",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_souv_actor_3",
+      "subjectId": "actor_florian-philippot",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Frexit, EDF public, nucléaire, hydro et moratoire éolien.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_souv_actor_4",
+      "subjectId": "actor_franois-asselineau",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Souveraineté juridique via sortie de l’UE ; doctrine détaillée à documenter.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_lo_dissent_1",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Une comparaison purement technocratique serait inadaptée.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lo_dissent_2",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "dissent_or_watchpoint",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Les scores de mix restent prudents faute de doctrine détaillée.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "inferred",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_lo_actor_1",
+      "subjectId": "actor_nathalie-arthaud",
+      "speakerId": null,
+      "claimType": "role_or_influence",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Propriété des moyens de production, contrôle des travailleurs et critique des grands groupes.",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "reported",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_contexte_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "program_factory",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Le GT énergie officiel d'A. de Rancourt repart d'une page blanche, contournant initialement le Plan Marie Curie de J-P Tanguy.",
+      "quote": null,
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_contexte_2",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "program_factory",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "L'architecture programmatique scinde l'électricité (A. Merlin) et les sujets énergie-climat globaux (P. Charlez) en deux groupes distincts.",
+      "quote": null,
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_contexte_3",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "program_factory",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "L'angle mort de l'organigramme est résolu par la nomination formelle d'Alain Delmestre comme délégué à l'énergie.",
+      "quote": null,
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_contexte_4",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "program_factory",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Une réflexion s'amorce en interne sur les limites physiques de l'électrification totale des usages.",
+      "quote": null,
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "inferred",
+      "certainty": "probable",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_contexte_5",
+      "subjectId": "actor_maxime-amblard",
+      "speakerId": null,
+      "claimType": "program_factory",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Prépare une offensive programmatique à travers le dépôt d'une PPL Énergie à la rentrée parlementaire.",
+      "quote": null,
+      "sourceIds": [
+        "contexte-prepa-2027"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": null,
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "confirmed",
+      "certainty": "confirmed",
+      "reviewStatus": "validated"
+    },
+    {
+      "id": "claim_policy_rn_nuclear_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : relance massive",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_renewables_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "Éolien : très hostile",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_renewables_2",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "Photovoltaïque : critique, nuance interne signalée",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_hydro_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "hydro"
+      ],
+      "statement": "Hydro : très favorable",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_eu_integration_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Photovoltaïque : critique, nuance interne signalée",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_eu_integration_2",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Marché UE : volonté de rupture profonde",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_market_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Marché UE : volonté de rupture profonde",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_industrial_sovereignty_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Prix : baisse des taxes et souveraineté tarifaire",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_rn_price_intervention_1",
+      "subjectId": "org_rn",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "price_intervention"
+      ],
+      "statement": "Prix : baisse des taxes et souveraineté tarifaire",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "rn-prix",
+        "an-amblard-ppe",
+        "an-amblard-enr",
+        "messad-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_nuclear_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire et EnR : complémentarité",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_renewables_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "Nucléaire et EnR : complémentarité",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_electrification_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "electrification"
+      ],
+      "statement": "Industrie : électrification",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_eu_integration_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Europe : intégration assumée",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_eu_integration_2",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Prix : compétitivité plutôt que rupture",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_grid_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "grid"
+      ],
+      "statement": "Pilotabilité et stockage : priorité",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_industrial_sovereignty_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Industrie : électrification",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ren_price_intervention_1",
+      "subjectId": "org_ren",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "price_intervention"
+      ],
+      "statement": "Prix : compétitivité plutôt que rupture",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "attal-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_hor_nuclear_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : prolonger et construire",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_hor_renewables_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : compléments indispensables",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_hor_public_control_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Planification 2050 intégrée",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_hor_eu_integration_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Europe : pilier",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_hor_grid_1",
+      "subjectId": "org_hor",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "grid"
+      ],
+      "statement": "Stockage et flexibilité : priorité",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "philippe-campagne"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_nuclear_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : priorité quasi absolue",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_renewables_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "Éolien et solaire : arrêt des subventions",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_hydro_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "hydro"
+      ],
+      "statement": "Hydro : favorable",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_eu_integration_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Nucléaire : priorité quasi absolue",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_eu_integration_2",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Marché UE : critique",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_market_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Marché UE : critique",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lr_industrial_sovereignty_1",
+      "subjectId": "org_lr",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Souveraineté industrielle : très forte",
+      "quote": null,
+      "sourceIds": [
+        "sfen-ufe-2026",
+        "lr-plan"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_nuclear_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : sortie à terme dans le corpus historique",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_renewables_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : 100 % à terme",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_sobriety_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "sobriety"
+      ],
+      "statement": "Sobriété : structurante",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_public_control_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Public : planification et maîtrise",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_eu_integration_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Nucléaire : sortie à terme dans le corpus historique",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_eu_integration_2",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Marché : rupture avec la logique libérale",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lfi_market_1",
+      "subjectId": "org_lfi",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Marché : rupture avec la logique libérale",
+      "quote": null,
+      "sourceIds": [
+        "ilb-planification",
+        "ilb-energie"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_eco_nuclear_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : sortie progressive",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_eco_renewables_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : accélération massive",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_eco_sobriety_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "sobriety"
+      ],
+      "statement": "Sobriété et efficacité : centrales",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_eco_eu_integration_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Europe : gouvernance solidaire",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_eco_grid_1",
+      "subjectId": "org_eco",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "grid"
+      ],
+      "statement": "Réseau : très structurant",
+      "quote": null,
+      "sourceIds": [
+        "eco-commission",
+        "eco-ppe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ps_nuclear_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Faure : nucléaire conservé mais moins d’EPR2",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ps_renewables_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : effort maximal",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ps_public_control_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Brun : EDF public et sortie du marché UE",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ps_eu_integration_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Brun : EDF public et sortie du marché UE",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ps_market_1",
+      "subjectId": "org_ps",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Brun : EDF public et sortie du marché UE",
+      "quote": null,
+      "sourceIds": [
+        "ps-projet",
+        "brun-marche",
+        "sfen-ufe-2026"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_nuclear_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : développement massif",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_nuclear_2",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "EnR : nécessaires avec nucléaire",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_renewables_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : nécessaires avec nucléaire",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_electrification_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "electrification"
+      ],
+      "statement": "Industrie : électrification",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_public_control_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Public : maîtrise et pôle public",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_eu_integration_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Marché UE : sortie du marché spéculatif",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_market_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Marché UE : sortie du marché spéculatif",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pcf_industrial_sovereignty_1",
+      "subjectId": "org_pcf",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Industrie : électrification",
+      "quote": null,
+      "sourceIds": [
+        "pcf-nucleaire",
+        "pcf-relance"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ne_nuclear_1",
+      "subjectId": "org_ne",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : central",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ne_public_control_1",
+      "subjectId": "org_ne",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "État : moins interventionniste",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ne_market_1",
+      "subjectId": "org_ne",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "market"
+      ],
+      "statement": "Marché : approche libérale",
+      "quote": null,
+      "sourceIds": [
+        "ne-equipe"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_nuclear_1",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire : position 2027 à préciser",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_renewables_1",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "EnR : forte accélération probable",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_eu_integration_1",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Europe : souveraineté énergétique",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_eu_integration_2",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Industrie : sécurité économique européenne",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_industrial_sovereignty_1",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Europe : souveraineté énergétique",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_pp_industrial_sovereignty_2",
+      "subjectId": "org_pp",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Industrie : sécurité économique européenne",
+      "quote": null,
+      "sourceIds": [
+        "pp-pellerin"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ville_eu_integration_1",
+      "subjectId": "org_ville",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Europe : probablement structurante",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_ville_industrial_sovereignty_1",
+      "subjectId": "org_ville",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "industrial_sovereignty"
+      ],
+      "statement": "Méthode : rencontres filière et experts",
+      "quote": null,
+      "sourceIds": [
+        "villepin-lettre"
+      ],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_souv_nuclear_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "nuclear"
+      ],
+      "statement": "Nucléaire et hydro : priorités",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_souv_renewables_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "renewables"
+      ],
+      "statement": "Éolien : très hostile",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_souv_hydro_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "hydro"
+      ],
+      "statement": "Nucléaire et hydro : priorités",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_souv_eu_integration_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Rupture UE : centrale",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_souv_price_intervention_1",
+      "subjectId": "org_souv",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "price_intervention"
+      ],
+      "statement": "Prix : forte intervention selon les candidats",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lo_public_control_1",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "public_control"
+      ],
+      "statement": "Propriété et contrôle : axe dominant",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lo_eu_integration_1",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Mix électrique : peu détaillé",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lo_eu_integration_2",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "eu_integration"
+      ],
+      "statement": "Prix : critique des profits",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    },
+    {
+      "id": "claim_policy_lo_price_intervention_1",
+      "subjectId": "org_lo",
+      "speakerId": null,
+      "claimType": "policy_position",
+      "topicIds": [
+        "price_intervention"
+      ],
+      "statement": "Prix : critique des profits",
+      "quote": null,
+      "sourceIds": [],
+      "sourceLocator": {
+        "page": null,
+        "section": "Marqueurs doctrinaux du corpus fourni",
+        "timestamp": null,
+        "fragment": null
+      },
+      "statementDate": null,
+      "evidenceLevel": "reported",
+      "certainty": "reported",
+      "reviewStatus": "to_review"
+    }
+  ],
+  "focusMentions": [],
+  "sources": [
+    {
+      "id": "sfen-ufe-2026",
+      "title": "UFE / SFEN — positions énergie 2027",
+      "publisher": "SFEN",
+      "type": "Presse spécialisée",
+      "url": "https://www.sfen.org/rgn/presidentielle-2027-au-colloque-de-lufe-les-grands-partis-listent-leurs-positions-sur-le-nucleaire/",
+      "summary": "Positions de plusieurs camps au colloque UFE de juin 2026.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "rn-prix",
+      "title": "RN — prix / nucléaire",
+      "publisher": "Rassemblement National",
+      "type": "Parti",
+      "url": "https://rassemblementnational.fr/petition/dites-stop-a-laugmentation-des-prix-de-lelectricite",
+      "summary": "Marché européen, nucléaire et critique des renouvelables intermittentes.",
+      "reliability": "medium",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "an-amblard-ppe",
+      "title": "Assemblée — Maxime Amblard / PPE",
+      "publisher": "Assemblée nationale",
+      "type": "Institution",
+      "url": "https://questions.assemblee-nationale.fr/q17/17-1230QG.htm",
+      "summary": "Question au Gouvernement sur la PPE.",
+      "reliability": "high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "an-amblard-enr",
+      "title": "Assemblée — Maxime Amblard / EnR",
+      "publisher": "Assemblée nationale",
+      "type": "Institution",
+      "url": "https://questions.assemblee-nationale.fr/q17/17-1670QG.htm",
+      "summary": "Intervention sur l’éolien en mer.",
+      "reliability": "high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "messad-energie",
+      "title": "Bulletin de l’énergie en campagne",
+      "publisher": "Paul Messad",
+      "type": "Veille sectorielle",
+      "url": "https://www.linkedin.com/pulse/bulletin-de-l%C3%A9nergie-en-campagne-40-paul-messad-efxle",
+      "summary": "Noyau RN et dissension signalée ; source secondaire.",
+      "reliability": "medium",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "lr-plan",
+      "title": "LR — plan pour l’énergie",
+      "publisher": "Les Républicains",
+      "type": "Parti",
+      "url": "https://republicains.fr/actualites/2025/07/02/rebatir-un-parc-nucleaire-et-stopper-le-financement-des-renouvelables-notre-plan-pour-lenergie/",
+      "summary": "Doctrine Retailleau, Bellamy et Aubert.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "ilb-planification",
+      "title": "Institut La Boétie — planification énergétique",
+      "publisher": "Institut La Boétie",
+      "type": "Think tank partisan",
+      "url": "https://institutlaboetie.fr/note-introduction-planification-energetique/",
+      "summary": "Note coordonnée par Jean-Baptiste Grenier.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "ilb-energie",
+      "title": "Institut La Boétie — énergie",
+      "publisher": "Institut La Boétie",
+      "type": "Think tank partisan",
+      "url": "https://institutlaboetie.fr/energie-lemission/",
+      "summary": "Émission et écosystème d’experts énergie.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "eco-commission",
+      "title": "Les Écologistes — Commission énergie",
+      "publisher": "Les Écologistes",
+      "type": "Parti",
+      "url": "https://commissions.lesecologistes.fr/trombinoscope/7SQWVNoUg525kG3Rf6hPM6/energie-et-climat",
+      "summary": "Commission chargée de contribuer à la doctrine.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "eco-ppe",
+      "title": "Les Écologistes — PPE",
+      "publisher": "Les Écologistes",
+      "type": "Parti",
+      "url": "https://commissions.lesecologistes.fr/posts/2U5CGKF9j57ecaW9G0bbFF/les-ecologistes-presentent-une-contribution-a-la-concertation-publique-sur-la-future-ppe",
+      "summary": "Contribution à la concertation sur la PPE.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "ps-projet",
+      "title": "PS — Le temps du projet",
+      "publisher": "Parti socialiste",
+      "type": "Parti",
+      "url": "https://letempsduprojet.fr/",
+      "summary": "Projet socialiste coordonné par Chloé Ridel.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "brun-marche",
+      "title": "Philippe Brun — marché électricité",
+      "publisher": "Sud Radio",
+      "type": "Média",
+      "url": "https://www.sudradio.fr/linvite-politique/philippe-brun-je-veux-sortir-du-marche-europeen-de-lelectricite",
+      "summary": "EDF, marché européen et réindustrialisation.",
+      "reliability": "medium",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "pcf-nucleaire",
+      "title": "PCF — nucléaire durable",
+      "publisher": "PCF",
+      "type": "Parti",
+      "url": "https://www.pcf.fr/nucleaire_durable",
+      "summary": "Nucléaire et renouvelables dans la sortie des fossiles.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "pcf-relance",
+      "title": "PCF — relance nucléaire",
+      "publisher": "PCF",
+      "type": "Parti",
+      "url": "https://www.pcf.fr/relance_nucleaire_durable_et_financement",
+      "summary": "Financement, cycle et souveraineté.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "ne-equipe",
+      "title": "Nouvelle Énergie — équipe",
+      "publisher": "Nouvelle Énergie",
+      "type": "Parti",
+      "url": "https://www.unenouvelleenergie.fr/decouvrir-notre-parti/lequipe/",
+      "summary": "Équipe officielle et groupes de travail.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "pp-pellerin",
+      "title": "Place publique — Thomas Pellerin-Carlin",
+      "publisher": "Place publique",
+      "type": "Parti",
+      "url": "https://place-publique.eu/pages/6hgeowsSAjAYiwYfkXfmJi/nos-victoires",
+      "summary": "Souveraineté énergétique européenne et gaz russe.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "villepin-lettre",
+      "title": "La Lettre — Villepin énergie",
+      "publisher": "La Lettre",
+      "type": "Presse",
+      "url": "https://www.lalettre.fr/fr/politique_partis-et-elections/2026/03/26/dominique-de-villepin-structure-son-mouvement-en-vue-de-2027%2C110688775-ar2",
+      "summary": "Pierre Jérémie et Daniel Arlaud cités dans le dispositif.",
+      "reliability": "medium",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "rte-fe2050",
+      "title": "RTE — Futurs énergétiques 2050",
+      "publisher": "RTE",
+      "type": "Institution",
+      "url": "https://www.rte-france.com/donnees-publications/etudes-prospectives/futurs-energetique-2050",
+      "summary": "Base de comparaison des scénarios système.",
+      "reliability": "high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "rte-scenarios",
+      "title": "RTE — panorama scénarios",
+      "publisher": "RTE",
+      "type": "Institution",
+      "url": "https://rte-futursenergetiques2050.com/panorama/scenarios",
+      "summary": "Six scénarios de mix et trajectoires de consommation.",
+      "reliability": "high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "attal-campagne",
+      "title": "Campagne Gabriel Attal",
+      "publisher": "Campagne Attal",
+      "type": "Campagne",
+      "url": "https://attalpresident.fr/",
+      "summary": "Site de campagne 2027.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "philippe-campagne",
+      "title": "Campagne Édouard Philippe",
+      "publisher": "Campagne Philippe",
+      "type": "Campagne",
+      "url": "https://www.edouardphilippe.fr/",
+      "summary": "Site de campagne 2027.",
+      "reliability": "medium_high",
+      "publicationDate": null,
+      "accessedAt": "2026-08-12"
+    },
+    {
+      "id": "contexte-prepa-2027",
+      "title": "Présidentielle 2027 : qui prépare le programme énergie des candidats, et comment",
+      "publisher": "Contexte",
+      "type": "Presse spécialisée",
+      "url": "https://www.contexte.com/fr/article/energie/presidentielle-2027-qui-prepare-le-programme-energie-des-candidats-et-comment_272633",
+      "reliability": "high",
+      "summary": "Organisation de la préparation des programmes énergie.",
+      "accessedAt": "2026-08-12"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "timeline_rn",
+      "holderId": "org_rn",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Souveraineté et nucléaire déjà structurants."
+        },
+        {
+          "date": "2022",
+          "label": "Plan « Marie Curie » : nucléaire, hydro et hostilité à l’éolien."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Prix, marché UE et montée du binôme Tanguy-Amblard."
+        },
+        {
+          "date": "2027",
+          "label": "Financement, solaire résiduel et mécanisme juridique à trancher."
+        }
+      ]
+    },
+    {
+      "id": "timeline_ren",
+      "holderId": "org_ren",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_hor",
+      "holderId": "org_hor",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_lr",
+      "holderId": "org_lr",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_lfi",
+      "holderId": "org_lfi",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_eco",
+      "holderId": "org_eco",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_ps",
+      "holderId": "org_ps",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_pcf",
+      "holderId": "org_pcf",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_ne",
+      "holderId": "org_ne",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_pp",
+      "holderId": "org_pp",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_ville",
+      "holderId": "org_ville",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_souv",
+      "holderId": "org_souv",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    },
+    {
+      "id": "timeline_lo",
+      "holderId": "org_lo",
+      "events": [
+        {
+          "date": "2017",
+          "label": "Point de départ doctrinal et partisan."
+        },
+        {
+          "date": "2022",
+          "label": "Structuration d’une doctrine énergétique plus visible."
+        },
+        {
+          "date": "2024–2026",
+          "label": "Évolutions, travaux parlementaires et préparation de 2027."
+        },
+        {
+          "date": "2027",
+          "label": "Arbitrages, équipe et chiffrage à consolider."
+        }
+      ]
+    }
+  ]
+};
